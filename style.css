@@ -1,0 +1,49 @@
+.hero-section{
+    background: url(./img/main-back.png);
+    background-position: center center;
+    /* height: 700px; */
+}
+/* .main-header-text{
+    padding-left: 70px;
+    padding-top: 200px;
+    
+} */
+
+
+.main-header-text h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 100px;
+}
+
+.main-header-text h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .main-header-text h1 {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .main-header-text h1 {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    
+}
+
+.main-row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section{
+    background: url(./img/background.png);
+    height: 500px;
+    width: 100%;
+   background-position: center center;
